@@ -1,9 +1,14 @@
 .flex-container {
-    display: flex;
+display: flex;
    flex-direction: row;
+  /* Never knew justify-content was the so efficent of spacing it evenly, Good Observation!*/
   justify-content: space-between;
   margin-left: 100px;
   margin-right: 100px;
+  /*Using "align-text would also come in handy since everything inside the flexbox is based off text
+  "(Glad it still worked though*/
   align-items: center;
+/* Changing the background color would be more appealing to the text (Nothing Serious)*/
+/* background-color: 86888a; would be more something to suggest just to keep it basic and appealing*/
   background-color: yellow;
 }
